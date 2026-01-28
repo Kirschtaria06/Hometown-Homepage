@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-shadow: 0 0 1px black;
+}
+
+#hero-section {
+    text-align: center;
+}
+
+.hero-bg-img{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-image: url(images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+#title {
+    font-family: "Archivo-Black", sans-serif;
+    color: #283618;
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px #e9ecef;
+    margin-bottom: 5px;
+}
+
+#detail {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fefae0;
+    font-size: 25px;
+    background-color: #344e41;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+}
+
+.top-three {
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+.top-text {
+    margin-top: 20px;
+}
+
+.items {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.top-images {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main-text, .secondary-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+}
+
+.secondary-text {
+    font-size: 12px;
+    width: 250px;
+}
+
+.entries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    outline: 1px solid red;
+}
+
+.top-images, .main-text{
+    margin-bottom: 10px;
+}
+
