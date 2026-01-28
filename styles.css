@@ -10,6 +10,7 @@ p {
 
 #hero-section {
     text-align: center;
+    height: 400px;
 }
 
 .hero-bg-img{
@@ -48,10 +49,15 @@ p {
     text-align: center;
     height: 400px;
     width: 100%;
+    background-color: #344e41;
 }
 
 .top-text {
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #a3b18a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
 
 .items {
@@ -67,11 +73,13 @@ p {
 }
 
 .main-text, .secondary-text {
+    color: #dad7cd;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
 }
 
 .secondary-text {
+    color: #a3b18a;
     font-size: 12px;
     width: 250px;
 }
@@ -81,7 +89,6 @@ p {
     flex-direction: column;
     align-items: center;
     width: 350px;
-    outline: 1px solid red;
 }
 
 .top-images, .main-text{
