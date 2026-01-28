@@ -47,7 +47,7 @@ p {
 
 .top-three {
     text-align: center;
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: #344e41;
 }
@@ -95,3 +95,49 @@ p {
     margin-bottom: 10px;
 }
 
+.guide {
+    height: 400px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.card {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    background-color: #94d2bd;
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    color: #dad7cd;
+    background-color: #344e41;
+    border-bottom: 10px solid #03045e
+}
+
+.guide-description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 250px;
+}
+
+.guide-lead-text {
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.guide-statement {
+    font-size: 22px;
+}
+
+.guide-name {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
